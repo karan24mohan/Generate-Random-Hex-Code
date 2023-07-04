@@ -1,0 +1,33 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.colorContainer {
+  max-width: 600px;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.colorcode {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  text-align: center;
+}
